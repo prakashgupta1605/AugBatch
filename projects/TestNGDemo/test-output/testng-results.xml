@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33" started-at="2017-11-05T05:21:30Z" finished-at="2017-11-05T05:21:30Z">
+    <groups>
+      <group name="security">
+        <method signature="Testcases1.testCase1()[pri:2, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase1" class="TestNGPackage.Testcases1"/>
+        <method signature="Testcases1.testCase2()[pri:1, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase2" class="TestNGPackage.Testcases1"/>
+      </group> <!-- security -->
+      <group name="Sanity">
+        <method signature="Testcases1.testCase2()[pri:1, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase2" class="TestNGPackage.Testcases1"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="Testcases1.testCase1()[pri:2, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase1" class="TestNGPackage.Testcases1"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Default test" duration-ms="33" started-at="2017-11-05T05:21:30Z" finished-at="2017-11-05T05:21:30Z">
+      <class name="TestNGPackage.Testcases1">
+        <test-method status="PASS" signature="setSystemProperties()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="setSystemProperties" is-config="true" duration-ms="13" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSystemProperties -->
+        <test-method status="PASS" signature="preRequisite()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="preRequisite" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisite -->
+        <test-method status="PASS" signature="launchDriver()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="launchDriver" is-config="true" duration-ms="1" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="login" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCase2()[pri:1, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase2" duration-ms="6" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="logout" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="login" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCase1()[pri:2, instance:TestNGPackage.Testcases1@402f32ff]" name="testCase1" duration-ms="2" started-at="2017-11-05T10:51:30Z" description="test case description" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="logout" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="quitDriver" is-config="true" duration-ms="1" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="detroyData()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="detroyData" is-config="true" duration-ms="0" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detroyData -->
+        <test-method status="PASS" signature="resetSystemProperties()[pri:0, instance:TestNGPackage.Testcases1@402f32ff]" name="resetSystemProperties" is-config="true" duration-ms="1" started-at="2017-11-05T10:51:30Z" finished-at="2017-11-05T10:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetSystemProperties -->
+      </class> <!-- TestNGPackage.Testcases1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

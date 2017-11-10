@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59901" started-at="2017-11-05T06:22:49Z" finished-at="2017-11-05T06:23:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59901" started-at="2017-11-05T06:22:49Z" finished-at="2017-11-05T06:23:49Z">
+      <class name="TestCases.LoginTestCasesByPageFactory">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginTestCasesByPageFactory@433d61fb]" name="setUp" is-config="true" duration-ms="7913" started-at="2017-11-05T11:52:49Z" finished-at="2017-11-05T11:52:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:TestCases.LoginTestCasesByPageFactory@433d61fb]" name="testLogin" duration-ms="51957" started-at="2017-11-05T11:52:57Z" finished-at="2017-11-05T11:53:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- TestCases.LoginTestCasesByPageFactory -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
