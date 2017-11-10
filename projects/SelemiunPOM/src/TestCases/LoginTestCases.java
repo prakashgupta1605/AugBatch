@@ -25,4 +25,12 @@ public class LoginTestCases extends BaseTestPlan{
 		Assert.assertTrue(loginPage.signOff.isDisplayed(), "login unsuccessful");		
 	}	
 	
+	@Test()
+	public void testNegetiveLogin() {
+		loginPage.userName.sendKeys("a");
+		loginPage.password.sendKeys("b");
+		loginPage.login.click();
+		Assert.assertTrue(loginPage.login.isDisplayed(), "-ve test failed");		
+	}
+	
 }
