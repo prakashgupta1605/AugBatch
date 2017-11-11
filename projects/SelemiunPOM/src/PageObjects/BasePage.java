@@ -3,7 +3,7 @@ package PageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import TestCases.BaseTestPlan;
+import common.ApplicationProperties;
 
 public class BasePage {
 	
@@ -21,11 +21,11 @@ public class BasePage {
 	}
 	
 	public static void pageRefresh() {
-		BaseTestPlan.driver.navigate().refresh();
+		ApplicationProperties.getDriver().navigate().refresh();
 	}
 	
 	public static void maximizePage() {
-		BaseTestPlan.driver.manage().window().maximize();
+		ApplicationProperties.getDriver().manage().window().maximize();
 	}
 	
 

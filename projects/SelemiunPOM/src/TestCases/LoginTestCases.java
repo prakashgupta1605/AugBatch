@@ -1,15 +1,11 @@
 package TestCases;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
 
 public class LoginTestCases extends BaseTestPlan{
-	WebDriver driver = null;
 	LoginPage loginPage = null;
 	
 	@BeforeMethod
@@ -26,11 +22,11 @@ public class LoginTestCases extends BaseTestPlan{
 	}	
 	
 	@Test()
-	public void testNegetiveLogin() {
+	public void testInvalidLogin() {
 		loginPage.userName.sendKeys("a");
-		loginPage.password.sendKeys("b");
+		loginPage.password.sendKeys("");
 		loginPage.login.click();
-		Assert.assertTrue(loginPage.login.isDisplayed(), "-ve test failed");		
+		Assert.assertTrue(loginPage.login.isDisplayed(), "-ve login failed");		
 	}
 	
 }
