@@ -24,7 +24,7 @@ public class TestPlan1 {
   
   @Test
   public void test2() {
-	  Assert.assertTrue(driver.findElement(By.linkText("Home")).isEnabled(), 
+	  Assert.assertFalse(driver.findElement(By.linkText("Home")).isEnabled(), 
 				"Home link is not visible");
   }
 
